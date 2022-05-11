@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+img {
+    padding: 50px 0px 30px 30px;
+}
+
+h1 {
+    padding-left: 30px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 13px;
+}
+
+.box1 {
+    width: 20%;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    height: 400px;
+    min-width: 190px;
+
+}
+
+.box2 {
+    width: 20%;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    height: 400px;
+    min-width: 190px;
+
+}
+
+.box3 {
+    width: 20%;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    height: 400px;
+    min-width: 190px;
+
+}
+
+.box1 p {
+    padding: 30px;
+    display: block;
+}
+
+.box2 p {
+    padding: 30px;
+}
+
+.box3 p {
+    padding: 30px;
+}
+
+.box1>.btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2>.btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.box3>.btn {
+    color: hsl(179, 100%, 13%);
+
+}
+
+/* css botão*/
+
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: hsl(31, 77%, 52%);
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    background: #fff;
+    padding: 8px 18px 8px 18px;
+    text-decoration: none;
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+.btn:hover {
+    background: #e2e7eb;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    text-align: center; 
+}
+
+.attribution a{
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+}
+ .frontendmentor{
+    font-style: italic !important;
+  
+}
+.attribution img{
+    width:20px;
+    padding: 0px !important;
+    vertical-align: middle;
+}
+
+/* media queries*/
+
+
+@media screen and  (max-width: 615px) {
+    .container{
+        flex-direction: column;
+        width: 100%; 
+        padding: 20px 0px 20px 0px !important;
+    }
+    .box1{
+        width: 80vw;
+    }
+    .box2{
+        width: 80vw;
+    }
+    .box3{
+        width: 80vw;
+    }
+    
+    
+}
+ 
