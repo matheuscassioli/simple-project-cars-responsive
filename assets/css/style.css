@@ -5,6 +5,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
     --white-text-color: white;
     --body-bg-color: grey;
     --text-font-color: rgba(255, 255, 255, 0.801);
@@ -54,7 +58,6 @@ p {
     color: var(--text-font-color);
     height: 400px;
     min-width: 190px;
-
 }
 
 .box2 {
@@ -99,72 +102,4 @@ p {
 .box3>.btn {
     color: var(--luxury-bg-color);
 
-}
-
-/* css botão*/
-
-
-.btn {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: var(--sedans-bg-color);
-    font-size: 12px;
-    font-family: 'Lexend Deca', sans-serif;
-    background: var(--white-text-color);
-    padding: 8px 18px 8px 18px;
-    text-decoration: none;
-    margin-left: 30px;
-    white-space: nowrap;
-}
-
-.btn:hover {
-    background: var(--button-hover-bg-color);
-    text-decoration: none;
-}
-
-/*-------------footer-------------------*/
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 0 10px 10px 20px;
-    text-align: center;
-}
-
-.attribution a {
-    color: var(--white-text-color);
-    text-decoration: none;
-}
-
-.attribution a:nth-child(2) {
-    font-weight: bold;
-}
-
-.frontendmentor {
-    font-style: italic;
-
-}
-
-.attribution img {
-    width: 20px;
-    padding: 0px;
-    vertical-align: middle;
-}
-
-/* -------------media queries-----------------*/
-
-@media screen and (max-width: 615px) {
-    .container {
-        transition: all 3s;
-        flex-direction: column;
-        width: 100%;
-        padding: 20px 0px 20px 0px;
-    }
-    .box1,
-    .box2,
-    .box3 {
-        width: 80%;
-    }
-}
+} 

@@ -1,0 +1,13 @@
+ @media screen and (max-width: 615px) {
+    .container {
+        transition: all 3s;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 0px 20px 0px;
+    }
+    .box1,
+    .box2,
+    .box3 {
+        width: 80%;
+    }
+}
